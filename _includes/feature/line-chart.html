@@ -1,0 +1,70 @@
+{% comment %}
+
+    Embed a line chart, https://www.chartjs.org/docs/latest/charts/line.html
+    
+    E.G. --> {% include feature/line-chart.html data="party-platforms-20th-century-all" topic="freedom and prosperity" %}
+
+    Options for data value:
+        sotu_20th_century
+        sotu_20th_century_1900_1944
+        sotu_20th_century_1948_2000
+        party_platforms_1900_1944_all
+        party_platforms_1900_1944_democratic
+        party_platforms_1900_1944_republican
+        party_platforms_1948_2000_all
+        party_platforms_1948_2000_democratic
+        party_platforms_1948_2000_republican
+        party_platforms_20th_century_all
+        party_platforms_20th_century_democratic
+        party_platforms_20th_century_republican
+
+{% endcomment %}
+
+{% capture topicdata %}{{ include.data | append: '-topics' }}{% endcapture %}
+{% capture documentdata %}{{ include.data | append: '-documents' }}{% endcapture %}
+{% capture varName %}topic_{{ include.topic | slugify | replace: "-", "_" }}_data_{{ include.data | slugify | replace: "-", "_" }}{% endcapture %}
+
+{%- assign chosentopics = site.data.topics[topicdata] | where: 'topicname', include.topic -%}
+{%- assign chosendocuments = site.data.documents[documentdata] -%}
+
+<div class="text-center">
+    <h4>Line Chart</h4>
+    <p>{{ include.data | replace: '-', ' ' | replace: 'sotu', 'State of the Union' | remove: ' all' }} </p>
+</div>
+
+{%- for t in chosentopics -%}
+<p class="text-center"><strong>{{ t.topicname | capitalize }}:</strong> {{ t.words }}</p>
+{%- endfor -%}
+
+<canvas id="{{ varName }}" class="py-5"></canvas>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"></script>
+<script>
+var ctx = document.getElementById('{{ varName }}');
+var presidents = [
+    {%- for d in chosendocuments -%}
+    {{ d.id | replace: "-", " " | jsonify }} {% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+]
+var topic = [
+    {%- for d in chosendocuments -%}
+    {% for t in chosentopics -%}
+    {{ d[t.topic] | jsonify }}
+    {%- endfor -%}
+    {% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+]
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: presidents,
+        datasets: [{
+            label: '{{ include.topic | capitalize }} Topic',
+            data: topic,
+            fill: false,
+            borderColor: 'rgb(75, 192, 192)',
+            tension: 0.1
+        }]
+    },
+});
+</script>
