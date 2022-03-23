@@ -11,8 +11,11 @@ custom-foot: js/include-js.html
     <div class="form-group pt-3">
     <select class="custom-select" id="include-type">
         <option value="">Select include type</option>
-        <option value="image">Image</option>
-        <option value="pdf">PDF</option>
+        <option value="image-lumber">Image from Lumber (the Blog Collection)</option>
+        <option value="pdf-lumber">PDF from Lumber (the Blog Collection)</option>
+        <option value="image">Image from a Digital Collection</option>
+        <option value="pdf">PDF from a Digital Collection</option>
+        <option value="pdf">Video</option>
     </select>
     </div>
     <div id="form-content"></div>
