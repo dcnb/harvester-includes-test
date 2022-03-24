@@ -14,6 +14,7 @@ custom-foot: js/include-js.html
         <option value="image">Image</option>
         <option value="pdf">PDF</option>
         <option value="video">Video</option>
+        <option value="frontmatter">Or Generate FrontMatter</option>
     </select>
     </div>
     <div id="form-content"></div>
