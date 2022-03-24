@@ -1,92 +1,101 @@
-colltitle,path,cdmid,different?
-THE BLOG COLLECTION ITSELF (Lumber),lumber,,
-1918 Flu Pandemic Collection,1918flu,,DIFFERENT!
-Adult Salmon and Steelhead Migration Studies: 1996-2014,ferl,,DIFFERENT!
-Agricultural Economics Research Series,aers,agecon,DIFFERENT!
-Agricultural Experiment &amp; UI Extension Publications,uiext,ui_ep,DIFFERENT!
-The Argonaut,argonaut,argonaut,
-Argonaut Photograph Collection,argonautphotos,p17254coll3,DIFFERENT!
-Al Grey/Rosalie Soladar Memorial Collection,grey_al,ijcag,DIFFERENT!
-Arbor Notes Collection,arbornotes,arbornotes,
-Archival Idaho Photograph Collection,archivalidaho,archivalidaho,
-Barnard-Stockbridge Photograph Collection,barstock,bar-stock,DIFFERENT!
-The Big Burn Collection,bigburn,bigburn,
-Bovill Historical Photograph Collection,lchsphotos,lchsphotos,
-Bunker Hill Labor Collection,bunkerhill,bunkerhill,
-"C. H. Shattuck, Idaho Lantern Slides, 1904-1910",shattuck,spec_cs,DIFFERENT!
-Carleton Watkins Mine Interiors Collection,watkins,watkins,
-Cattle Producer's Handbook Collection,cattle,cattle,
-Chatcolab NW Leadership Lab Collection,chatcolab,chatcolab,
-Columbia River Basin Project - PNW Dam Construction,crbp,crbproj,DIFFERENT!
-CTRL+SHIFT,,,
-Digital Scholarship Collection,digschol,digschol,
-Dizzy Gillespie Collection,gillespie_dizzy,ijcdg,DIFFERENT!
-Donald R. Theophilus Boxing Photograph Collection,boxing,boxing,
-Dworshak Dam Collection,dworshak,dworshak,
-"Edward John Iddings Lantern Slides, 1927",iddings,spec_ji,DIFFERENT!
-Experimental Forest and Savenac Nursery Photo Archive,expforest,expforsav,DIFFERENT!
-"Family Tree Collection, a Potlatch Forests, Inc. Newsletter",familytree,spec_pot,DIFFERENT!
-Finding Aids (EAD),spec_fa,spec_fa,
-Fugue Literary Journal Collection,fugue,fugue,
-Gem of the Mountains Digital Yearbook Collection,gem,gem,
-Guided Reading Library,guidedreading,guidedread,DIFFERENT!
-Historical Japanese Ceramic Comparative Collection (HJCCC),hjccc,HJCCC,
-HistPhoto - Historical Photograph Database,histphoto,,DIFFERENT!
-Idaho Cities &amp; Towns,cities,cities,
-Idaho Civilian Conservation Corps,cccidaho,cccidaho,
-Idaho Football Covers Collection,footballcovers,football,DIFFERENT!
-Idaho Forest Wildlife and Range Experiment Station Collection,fwres,fwres,
-The Idaho Forester Collection,forester,forester,
-Idaho Forestry Research Collection,forestryresearch,forestryresearch,
-Idaho Historical Aerial Photographs,uiiap,uiiap,
-Idaho Historical Maps,spec_hm,spec_hm,
-Idaho Snow Loads,idahosnow,,DIFFERENT!
-Idaho Waters Digital Library,iwdl,idahowater,DIFFERENT!
-INSIDE Idaho,,,
-Institutional Repository,ir,IR,
-Intermountain Forestry Cooperative,iftnc,iftnc,
-International Jazz Collections (IJC),ijc,ijc,
-Joe Williams Collection,williams_joe,ijcw,DIFFERENT!
-Kooskia Internment Camp Scrapbook,kooskia,spec_kic,DIFFERENT!
-Kyle Laughlin Photographs,laughlin,spec_kl,DIFFERENT!
-Latah County Community Heritage Collection,lcheritage,lcheritage,
-Latah County Oral Histories,lcoh,latah,DIFFERENT!
-Lee Morse Collection,morse_lee,ijclm,DIFFERENT!
-Leonard Feather Jazz Collection,feather_leonard,lfc,DIFFERENT!
-Lewiston Orchards Life Newsletter,lewistonorch,spec_lof,DIFFERENT!
-Lionel Hampton Library Collection,hampton_collection,ijcs,DIFFERENT!
-The Map Room,maps,,DIFFERENT!
-Mark Brooks Calnon Collection,calnon,calnon,
-McCall Public Library Collection,mccall,mccall,
-MosCon Collection,moscon,,DIFFERENT!
-Nez Perce Collection,nezperce,nezperce,
-Northwest Historical Postcards Collection,postcards,nwpostcards,DIFFERENT!
-Ott Historical Photograph Collection,ott,ott,
-PG1,pg1,pg1,
-Potlatch Historical Society Collection,phs,phs,
-Potlatch Lumber Company Photograph Collection,plcphotos,plcphotos,
-Priest Lake Historical Photograph Collection,priestlake,priestlake,
-Psychiana Digital Collection,psychiana,psychiana,
-Rangeland Center Collection,rangecoll,na,DIFFERENT!
-Ray Brown Collection,brown_ray,ijc_brown,DIFFERENT!
-River Recreation Research Database,rrrd,rrrd,
-Robert E. Higgins Collection,higgins,higgins,
-Selway-Bitterroot Wilderness History Project,sbwhp,sbw,DIFFERENT!
-Senator William Edgar Borah Scrapbooks,spec_web,spec_web,
-Stanton Gilbert Fisher Collection,fisher,fisher,
-Stonebraker Photograph Collection,stonebraker,stonebraker,
-Taylor Ranch Log Book Collection,taylorranch,taylor,DIFFERENT!
-The Theodore Roosevelt Collection,troosevelt,,DIFFERENT!
-Theses and Dissertation Database (ETDs),etds,etd,DIFFERENT!
-Turning of the Wheel Collection - Humanities Colloquium 2011-2012,turning,turning,
-UI Campus Photograph Collection,campus,pg1,DIFFERENT!
-University of Idaho Historical Photos,uihistorical,spec_uihp,DIFFERENT!
-University of Idaho Law Faculty Repository,lawir,lawir,
-University of Idaho Student Organizations Collection (PG2),pg2,pg2,
-University of Idaho: Then and Now,campushistory,,DIFFERENT!
-Vandal Poem of the Day,,,
-Vandal Video Collection,vandalvideo,vandalvideo,
-VIVO,vivo,,DIFFERENT!
-Voices of Gay Rodeo,,,
-Web Archive Collections,webarchive,webarchive,
-White Pine - King of Many Waters Collection,whitepine,whitepine,
+title,path,cdmid,digcoll
+Lumber (Harvester collection),lumber,,
+1918 Flu Pandemic Collection,1918flu,,1918flu
+Adult Salmon and Steelhead Migration Studies: 1996-2014,ferl,,ferl
+Agricultural Economics Research Series,aers,agecon,aers
+Agricultural Experiment &amp; UI Extension Publications,uiext,ui_ep,uiext
+The Argonaut,argonaut,argonaut,argonaut
+Argonaut Photograph Collection,argonautphotos,p17254coll3,argonautphotos
+Al Grey/Rosalie Soladar Memorial Collection,grey_al,ijcag,grey_al
+Arbor Notes Collection,arbornotes,arbornotes,arbornotes
+Archival Idaho Photograph Collection,archivalidaho,archivalidaho,archivalidaho
+Barnard-Stockbridge Photograph Collection,barstock,bar-stock,barstock
+The Big Burn Collection,bigburn,bigburn,bigburn
+Black History at the University of Idaho,blackhistory,,blackhistory
+Bovill Historical Photograph Collection,lchsphotos,lchsphotos,lchsphotos
+Bunker Hill Labor Collection,bunkerhill,bunkerhill,bunkerhill
+"C. H. Shattuck, Idaho Lantern Slides, 1904-1910",shattuck,spec_cs,shattuck
+Campus Artwork,campusart,,campusart
+Campus Planning History,lrcdp,,lrcdp
+Carleton Watkins Mine Interiors Collection,watkins,watkins,watkins
+Cattle Producer's Handbook Collection,cattle,cattle,cattle
+Chatcolab NW Leadership Lab Collection,chatcolab,chatcolab,chatcolab
+Columbia River Basin Project: Dam Construction in the Pacific Northwest,crbp,crbproj,crbp
+Digital Scholarship Collection,digschol,digschol,digschol
+Dizzy Gillespie Collection,gillespie_dizzy,ijcdg,gillespie_dizzy
+Donald R. Theophilus Boxing Photograph Collection,boxing,boxing,boxing
+Dworshak Dam Collection,dworshak,dworshak,dworshak
+"Edward John Iddings Lantern Slides, 1927",iddings,spec_ji,iddings
+Ella Fitzgerald Collection,ella-fitzgerald,,ella-fitzgerald
+Ernie Day Photograph Collection,ernieday,,ernieday
+Experimental Forest and Savenac Nursery Photo Archive,expforest,expforsav,expforest
+"Family Tree Collection, a Potlatch Forests, Inc. Newsletter",familytree,spec_pot,familytree
+Finding Aids (EAD),spec_fa,spec_fa,spec_fa
+Fugue Literary Journal Collection,fugue,fugue,fugue
+Gem of the Mountains Digital Yearbook Collection,gem,gem,gem
+George W. Tabor Photographs,tabor,,tabor
+Guided Reading Library,guidedreading,guidedread,guidedreading
+"Hal Riegger Papers, 1981-1986",riegger,riegger,riegger
+Harry Webb Marsh Collection,marsh,,marsh
+Here We Have Idaho Archive,hwhi,hwhi,hwhi
+Historical Japanese Ceramic Comparative Collection (HJCCC),hjccc,HJCCC,hjccc
+Idaho Bach Festival Archive,bach-festival,,bach-festival
+Idaho Cities &amp; Towns,cities,cities,cities
+Idaho Civilian Conservation Corps,cccidaho,cccidaho,cccidaho
+Idaho Football Covers Collection,footballcovers,football,footballcovers
+Idaho Forest Wildlife and Range Experiment Station Collection,fwres,fwres,fwres
+The Idaho Forester Collection,forester,forester,forester
+Idaho Forestry Research Collection,forestryresearch,forestryresearch,forestryresearch
+Idaho Historical Aerial Photographs,uiiap,uiiap,uiiap
+Idaho Historical Maps,spec_hm,spec_hm,spec_hm
+Idaho Snow Loads,idahosnow,,idahosnow
+Idaho Waters Digital Library,iwdl,idahowater,iwdl
+Institutional Repository,ir,IR,ir
+Intermountain Forestry Cooperative,iftnc,iftnc,iftnc
+International Jazz Collections (IJC),ijc,ijc,ijc
+Joe Williams Collection,williams_joe,ijcw,williams_joe
+Kooskia Internment Camp Scrapbook,kooskia,spec_kic,kooskia
+Kyle Laughlin Photographs,laughlin,spec_kl,laughlin
+Latah County Community Heritage Collection,lcheritage,lcheritage,lcheritage
+Latah County Oral Histories,lcoh,latah,lcoh
+Lee Morse Collection,morse_lee,ijclm,morse_lee
+Leo Ames Papers,ames,,ames
+Leonard Feather Blindfold Tests,blindfold,,blindfold
+Leonard Feather Jazz Collection,feather_leonard,lfc,feather_leonard
+Lewiston Orchards Life Newsletter,lewistonorch,spec_lof,lewistonorch
+Lionel Hampton Jazz Festival Collection,jazzfest,jazzfest,jazzfest
+Lionel Hampton Library Collection,hampton_collection,ijcs,hampton_collection
+The Map Room,maps,,maps
+Mark Brooks Calnon Collection,calnon,calnon,calnon
+McCall Public Library Collection,mccall,mccall,mccall
+MosCon Collection,moscon,,moscon
+Moving Forward While Looking Back,hiroshima,,hiroshima
+Northwest Historical Postcards Collection,postcards,nwpostcards,postcards
+Ott Historical Photograph Collection,ott,ott,ott
+Potlatch Historical Society Collection,phs,phs,phs
+Potlatch Lumber Company Photograph Collection,plcphotos,plcphotos,plcphotos
+Priest Lake Historical Photograph Collection,priestlake,priestlake,priestlake
+Psychiana Digital Collection,psychiana,psychiana,psychiana
+Rangeland Center Collection,rangecoll,na,rangecoll
+Ray Brown Collection,brown_ray,ijc_brown,brown_ray
+Richard W. Dodson Collection of Science Fiction,dodson,,dodson
+River Recreation Research Database,rrrd,rrrd,rrrd
+Robert E. Higgins Collection,higgins,higgins,higgins
+Selway-Bitterroot Wilderness History Project,sbwhp,sbw,sbwhp
+Senator William Edgar Borah Scrapbooks,spec_web,spec_web,spec_web
+Shitamae Family Letters,shitamae,,shitamae
+Stanton Gilbert Fisher Collection,fisher,fisher,fisher
+Stonebraker Photograph Collection,stonebraker,stonebraker,stonebraker
+Taylor Ranch Log Book Collection,taylorranch,taylor,taylorranch
+The Theodore Roosevelt Collection,troosevelt,,troosevelt
+Theses and Dissertation Collection,etds,etd,etds
+Transitions Journal,transitions,transitions,transitions
+The Trees Grew Tall Photograph Collection,treesgrewtall,treesgrewtall,treesgrewtall
+Turning of the Wheel Collection - Humanities Colloquium 2011-2012,turning,turning,turning
+UI Campus Photograph Collection,campus,pg1,campus
+University of Idaho General Catalogs,coursecatalogs,,coursecatalogs
+University of Idaho Historical Photos,uihistorical,spec_uihp,uihistorical
+University of Idaho Student Organizations Collection (PG2),pg2,pg2,pg2
+University of Idaho: Then and Now,campushistory,,campushistory
+Vandal Video Collection,vandalvideo,vandalvideo,vandalvideo
+White Pine - King of Many Waters Collection,whitepine,whitepine,whitepine
