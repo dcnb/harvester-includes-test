@@ -1,0 +1,56 @@
+---
+title: Post Generator
+layout: about
+permalink: /
+custom-foot: js/post-include-js.html
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <p>Use the form below to generate "include" code for images, documents, and videos.</p>
+    </div>
+    <div class="col-4">
+            <div class="form-group">
+                    <label for="postTitle">Post Title:</label>
+                    <input class="form-control" id="postTitle" placeholder="Title for your post">
+                </div>
+                <div class="form-group">
+                    <label for="collectionID">Cover Image Collection:</label>
+                    <select class="custom-select" id="collectionID">
+                        <option value="">Cover Image Collection</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="itemID">Cover Image ID (i.e. lumber704 or cccidaho220. For multiples separate by semicolon)</label>
+                    <input class="form-control" id="itemID" placeholder="Provide the objectid of the pdf or pdfs">
+                </div>
+                <div class="form-group">
+                    <label for="postSubjects">Post Subjects:</label>
+                    <div class="row">
+                    <input class="form-control col-4" id="postSubject1" placeholder="Subject 1">
+                    <input class="form-control col-4" id="postSubject2" placeholder="Subject 2">
+                    <input class="form-control col-4" id="postSubject3" placeholder="Subject 3">
+                    <input class="form-control col-4" id="postSubject4" placeholder="Subject 4">
+                    <input class="form-control col-4" id="postSubject5" placeholder="Subject 5">
+                    <input class="form-control col-4" id="postSubject6" placeholder="Subject 6">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="postCategory">Post Category:</label>
+                    <input class="form-control" id="postCategory" placeholder="Category for your post">
+
+                </div>
+                <div class="form-group">
+                    <label for="postSubtitle">Post Subtitle:</label>
+                    <input class="form-control" id="postSubtitle" placeholder="This is rarely used!">
+                </div>
+                <br>
+                <div class="row">
+                <button type="submit" id="generate" class="btn btn-primary mr-3">Submit</button>
+                <button id="reload" class="btn btn-success">Refresh</button>
+                </div>
+  </div>
+  <div class="col-md-8">
+    <div id="include-output" class="pt-4"></div>
+  </div>
+</div>

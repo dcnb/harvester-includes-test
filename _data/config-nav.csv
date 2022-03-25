@@ -1,6 +1,5 @@
 display_name,stub,dropdown_parent
-Home,/
-Essay In Progress,/essay-01.html
-Final Essay,/essay-02.html
-Data,/data.html
+Post Generator,/
 Include Generator,/generator.html
+GitHub Wiki,https://github.com/uidaholib/spec-lumber/wiki
+GitHub Repo,https://github.com/uidaholib/spec-lumber/

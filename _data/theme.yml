@@ -10,7 +10,7 @@
 # use either the name of an image file in this repository's "objects" folder (ex. feature-image.jpg), or a full url to an image elsewhere
 featured-image: feature-image.jpg
 # optional: add extra padding around site title for a larger image feature. 
-home-title-y-padding: 9em # Default is 8em
+home-title-y-padding: 2em # Default is 8em
 # optional: change position of background image, center, top, bottom
 home-banner-image-position: # Default is center
 

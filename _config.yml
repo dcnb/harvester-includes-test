@@ -20,25 +20,13 @@ source-code: https://github.com/learn-static/text-analysis
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Analyzing Political Text of The 20th Century
+title: Harvester Post Generator
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: A multimedia project for HIST 320, a Spring 2022 course at the University of Idaho
+tagline: 
 # creator of the digital project, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: collectionbuilder
 
-# collection
-collections:
-  topics:
-    output: true
-    permalink: /:collection/:title
-  
-# set defaults
-defaults:
-  - scope:
-      path: ""
-      type: "topics"
-    values:
-      layout: "topic"
+
 
 ##########
 # GOOGLE SERVICES [optional!]
