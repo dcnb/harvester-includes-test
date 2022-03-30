@@ -5,7 +5,7 @@ permalink: /
 ---
 
 
-The Harvester Helper will allow you to select the objects and generate the initial content for blog posts on the Idaho Harvester](https://harvester.lib.uidaho.edu/). 
+The Harvester Helper will allow you to select the objects and generate the initial content for blog posts on the [Idaho Harvester](https://harvester.lib.uidaho.edu/). 
 
 
 {% include feature/button.html link="post-generator.html" color="primary" size="lg" text="Generate a Post" %}
