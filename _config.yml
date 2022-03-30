@@ -14,7 +14,7 @@
 # on GitHub Pages it is your github repository's name prefixed with a /
 #baseurl: /text-analysis
 # location of code, the full url to your github repository
-source-code: https://github.com/learn-static/text-analysis
+source-code: https://github.com/uidaholib/harvester-helper
 
 ##########
 # SITE SETTINGS
@@ -24,7 +24,7 @@ title: Harvester Helper
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: 
 # creator of the digital project, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: collectionbuilder
+author: dcnb
 
 
 
