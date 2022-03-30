@@ -1,7 +1,7 @@
 ---
 title: Include Generator
 layout: about
-permalink: /generator.html
+permalink: /include-generator.html
 custom-foot: js/include-js.html
 ---
 

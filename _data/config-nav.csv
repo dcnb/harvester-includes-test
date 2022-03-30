@@ -1,5 +1,25 @@
 display_name,stub,dropdown_parent
-Post Generator,/
-Include Generator,/generator.html
-GitHub Wiki,https://github.com/uidaholib/spec-lumber/wiki
-GitHub Repo,https://github.com/uidaholib/spec-lumber/
+Home,/
+Post Generator,/post-generator.html
+Include Generator,/include-generator.html
+GitHub Links
+GitHub Wiki,https://github.com/uidaholib/spec-lumber/wiki,GitHub Links
+GitHub Repo,https://github.com/uidaholib/spec-lumber/,GitHub Links
+Step by Step
+Create a blog post with Image/Objects in the Lumber Collection,https://github.com/uidaholib/spec-lumber/wiki/checklist-for-a-blog-post-with-objects-added-to-the-Lumber-collection,Step by Step
+Create blog post with PDF(s)in the Lumber Collection,https://github.com/uidaholib/spec-lumber/wiki/checklist-for-a-Blog-post-with-PDF(s)-in-the-Lumber-Collection,Step by Step
+Create a blog post referencing an item from Digital Collections,https://github.com/uidaholib/spec-lumber/wiki/checklist-for-a-blog-post-referencing-an-item-from-Digital-Collections,Step by Step
+Create a blog post referencing an external digital object,"https://github.com/uidaholib/spec-lumber/wiki/checklist-for-a-blog-post-referencing-an-external-digital-object-(image,-pdf)",Step by Step
+How To
+Fill out the Lumber spreadsheet,https://github.com/uidaholib/spec-lumber/wiki/how-to-fill-the-Lumber-spreadsheet,How To
+Clean your text if you've written it in Word,https://github.com/uidaholib/spec-lumber/wiki/Cleaning-Your-Text-if-you've-written-your-post-in-Word,How To
+Add a YouTube video to the Lumber collection,https://github.com/uidaholib/spec-lumber/wiki/Adding-a-YouTube-video-to-the-Lumber-collection,How To
+Create a new series,https://github.com/uidaholib/spec-lumber/wiki/creating-a-new-series,How To
+Create a new author,https://github.com/uidaholib/spec-lumber/wiki/creating-a-new-author,How To
+Send the Harvester monthly newsletter,https://github.com/uidaholib/spec-lumber/wiki/sending-the-Harvester-monthly-newsletter,How To
+Create Wiki instructions,https://github.com/uidaholib/spec-lumber/wiki/creating-Wiki-instructions,How To
+Helpful Lists and Styles
+Style Guide,https://github.com/uidaholib/spec-lumber/wiki/Style-Guide,Helpful Lists and Styles
+Common Errors and Fixes,https://github.com/uidaholib/spec-lumber/wiki/Troubleshooting-Common-Errors-and-Fixes,Helpful Lists and Styles
+A list of all cover image options for blog posts,https://github.com/uidaholib/spec-lumber/wiki/cover-image-options-for-blog-posts,Helpful Lists and Styles
+A list of all include commands,https://github.com/uidaholib/spec-lumber/wiki/list-of-all-include-commands,Helpful Lists and Styles
