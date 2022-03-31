@@ -1,0 +1,44 @@
+---
+title: QR Code Generator
+layout: page
+permalink: /qrcode.html
+custom-foot: js/qrcodegenerator.html
+---
+
+<h1>QR Code Generator</h1>
+
+<div class="border rounded p-3 my-4">
+    <form id="qrCodeGeneratorForm" onsubmit="generate_qr_code(); return false;">
+        <div class="form-group">
+            <label for="qrLink">Link</label>
+            <input type="url" class="form-control" id="qrLink">
+        </div>
+
+        <div class="mb-3">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#advancedOptions" aria-expanded="false" aria-controls="advancedOptions">Advanced Options <span class="fa fa-angle-down" aria-hidden="true"></span></button>
+            
+            <div class="collapse" id="advancedOptions">
+                <div class="form-group">
+                    <label for="qrWidth">width in pixels (default = 300)</label>
+                    <input type="number" class="form-control" id="qrWidth" >
+                </div>
+                <div class="form-group">
+                    <label for="qrCampaign">tracking campaign id</label>
+                    <input type="text" class="form-control" id="qrCampaign" aria-describedby="campaignHelp">
+                    <small id="campaignHelp" class="form-text text-muted">Name / id sent to Google Analytics to record the specific promotion campaign so you can track the scans of this code. e.g. "spec_jazz_exhibit", "spec_kingspud". Only use on links to U of I Library websites!</small>
+                </div>
+                <div class="form-group">
+                    <label for="qrMedium">tracking medium</label>
+                    <input type="text" class="form-control" id="qrMedium" aria-describedby="mediumHelp">
+                    <small id="mediumHelp" class="form-text text-muted">Name or id for where you are putting the QR code so that you can track where they scanned it with Google Analytics e.g. "poster", "postcard", "sign". Only use on links to U of I Library websites!</small>
+                </div>
+            </div>
+
+        </div>
+
+        <button type="submit" class="btn btn-primary">Generate QR Code</button>
+        
+    </form>
+
+    <div id="qrDiv"></div>
+</div>
