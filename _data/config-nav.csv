@@ -2,6 +2,7 @@ display_name,stub,dropdown_parent
 Home,/
 Post Generator,/post-generator.html
 Include Generator,/include-generator.html
+QR Code,/qrcode.html
 GitHub Links
 GitHub Wiki,https://github.com/uidaholib/spec-lumber/wiki,GitHub Links
 GitHub Repo,https://github.com/uidaholib/spec-lumber/,GitHub Links
